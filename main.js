@@ -20,7 +20,7 @@
 					  window.unmuteSound();
 					}, { once: true });
 
-				$(document).onload(function(){
+				
 					
 
 					/* var AMSDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Amsterdam"}));
@@ -105,4 +105,4 @@
 						$('select.sizing').trigger('change');
 					});
 
-				});
+				
