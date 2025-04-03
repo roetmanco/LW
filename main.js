@@ -1,6 +1,6 @@
 
-
-					window.onload = function() {
+				setTimeout(function(){
+					
 						var cookiesPopup = document.getElementById('cookies');
 						var acceptCookiesButton = document.getElementById('accept');
 						if (!localStorage.getItem('cookiesAccepted')) {
@@ -11,7 +11,10 @@
 						localStorage.setItem('cookiesAccepted', true);
 						$('popup#cookies').removeClass("open").addClass("closed");
 						$('body').removeClass("popup");
-					}}
+					}
+					
+										}, 3000);
+
 
 					function unmuteSound(){
 						document.getElementById('sound').muted = false;
@@ -20,9 +23,10 @@
 					  window.unmuteSound();
 					}, { once: true });
 
-				
-					
 
+					setTimeout(function(){
+					
+					
 					/* var AMSDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Amsterdam"}));
 
 					var AMSHour = AMSDate.getHours();
@@ -105,4 +109,4 @@
 						$('select.sizing').trigger('change');
 					});
 
-				
+				}, 3000);
