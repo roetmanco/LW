@@ -20,7 +20,7 @@
 					  window.unmuteSound();
 					}, { once: true });
 
-				$(document).ready(function(){
+				$(document).onload(function(){
 					
 
 					/* var AMSDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Amsterdam"}));
