@@ -6,21 +6,6 @@
                 
                 <spacer></spacer>
                 
-                <block class="media">
-                    <image src="https://64.media.tumblr.com/930def1b11d16fcc00528956cab79b8f/9517b88013cf9d57-fb/s1280x1920/e7cbf26ef48a9791b9ce242e45e50d21b0414684.jpg"/>
-                    <sleeve></sleeve>
-                </block>
-                
-                <block class="media">
-                    <image src="https://64.media.tumblr.com/e17c7d6fb2a599ee7bdfcb8c19c1c167/9517b88013cf9d57-da/s540x810/7a585f942ea67b9fe8e44e341842fbe2f27763b6.jpg"/>
-                    <sleeve></sleeve>
-                </block>
-				
-                <block class="media last">
-                    <video autoplay loop muted src="https://va.media.tumblr.com/tumblr_ssmb97hL1P1aemywx.mp4" id="video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></video>
-                    <sleeve></sleeve>
-                </block>
-                
                 <spacer></spacer>
 
 				<spawn class="footer"></spawn>
@@ -38,81 +23,16 @@
                 <spacer></spacer>
                 
 					<spawn class="header"></spawn>
-                    
-                    <block class="form info">
-						
-                        <form  action="https://formsubmit.co/lukewualf@roetman.co" method="POST">
-                            
-                                <input type="hidden" name="_next" value="http://roetman.co">
-								<input type="hidden" name="_subject" value="LW Order > LW-CO001CT003P032">
-							
-								<h1 class="title">
-									M16 Trousers
-									<input type="hidden" name="title" value="M16 Trousers"/>
-								</h1>
-								<h2 class="price">
-									€ 420
-									<input type="hidden" name="price" value="€ 420"/>
-								</h2>
-								<p class="description">
-									This is a multifunctional long jacket with a fleece-lined interior that will keep you warm.
-								</p>
-								<span class="sizing">
-									<a href="#sizing" class="sizing">Sizing</a>
-								</span>
-								<span class="sku">
-									LW-CO001CT003P032
-									<input type="hidden" name="sku" value="LW-CO001CT003P032"/>
-								</span>
-							
-								<div class="pocket">
-									<label for="size" class="select">
-										<select name="size" id="size"  onchange="openPocket()" required>
-											<option class="placeholder" value="" disabled selected>*  What's your size?</option>
-											<option value="val1">Small</option>
-											<option value="Medium">Medium</option>
-											<option value="Large">Large</option>
-											<option value="X-Large">X-Large</option>
-										</select>
-									</label>
-									
-									<label for="name">
-										<input type="text" name="name" id="name" class="form-control" placeholder="*  What's your full name?" required>
-									</label>
-									<label for="email">
-										<input type="email" name="email" id="email" class="form-control" placeholder="*  ... and your e-mail?" required>
-									</label>
-									<label for="phone">
-										<input type="phone" name="phone" id="phone" class="form-control" placeholder="*  Got a phone?" required>
-									</label>
-									<label for="country">
-										<input type="text" name="country" id="country" class="form-control" placeholder="*  What country are you from?" required>
-									</label>
-									<label for="street">
-										<input type="text" name="street" id="street" class="form-control" placeholder="*  Street + number, please!" required>
-									</label>
-									<label for="postal/zip" class="half">
-									  <input type="text" name="postal/zip" id="postal/zip" class="form-control half" placeholder="Postal/zip?">
-									</label>
-									<label for="city" class="half margin">
-										<input type="text" name="city" id="city" class="form-control" placeholder="*  City?" required>
-									</label>
-									<label for="message">
-										<textarea placeholder="Anything you want to add?" class="form-control" id="message" name="message" rows="4"></textarea>
-									</label>
-									<label for="disclaimer" class="checkbox m2o last " reguired>
-									  <input type="checkbox" id="disclaimer" name="disclaimer" required/>
-										<p class="m2o" id="m2o-checkbox"></p>
-									</label>
-									
-									<button type="submit" class="submit">Request order</button>
-									
-									<button type="button" class="pocket unavailable open"></button>
-								</div>
-							
-                        </form>
-						
-                    </block>
+				
+					<block class="m2o bot-mar">
+						<p class="disclaimer" id="m2o-disclaimer"></p>
+						<span class="deadline">
+							04/03/2024
+						</span>
+						<span class="shipping">
+							04/03/2024
+						</span>
+					</block>
                 
                 <spacer></spacer>
 
