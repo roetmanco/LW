@@ -1,22 +1,43 @@
-	<wrapper class="a first" id="box1">
+
+		<wrapper class="b first fw-header" id="box1">
             
-            <column class="visual">
+            <column class="content">
 				
 				<dragger id="drag1"></dragger>
                 
                 <spacer></spacer>
+				
+                    <spawn class="header"></spawn>
                 
-				test
+                    <block class="info">
+
+						<p>LUKE WUALF is a Dutch fashion label inspired by a variety of subcultures and the rich history of The Netherlands.</p>
+						
+					</block>
+                
+					<block class="info menu">
+						<tab class="show menu open" id="terms">
+							<h3>Terms & Conditions</h3>
+						</tab>
+
+						<tab class="closed menu" id="shipping">
+							<h3>Shipping & Handeling</h3>
+						</tab>
+
+						<tab class="closed menu" id="contact">
+							<h3>Contact</h3>
+						</tab>
+					</block>
 				
                 <spacer></spacer>
 
-				<spawn class="footer"></spawn>
+                <spawn class="footer"></spawn>
             
 			</column>
             
         </wrapper>
 		
-		<wrapper class="b last" id="box2">
+		<wrapper class="b last fw-header" id="box2">
 			
             <column class="content">
 				
@@ -24,34 +45,23 @@
                 
                 <spacer></spacer>
                 
-					<spawn class="header"></spawn>
-                    
-                    <block class="form info">
-						
-                        <form  action="https://formsubmit.co/lukewualf@roetman.co" method="POST">
-
-									<label for="disclaimer" class="checkbox m2o last " reguired>
-									  <input type="checkbox" id="disclaimer" name="disclaimer" required/>
-										<p class="m2o" id="m2o-checkbox"></p>
-									</label>
-							
-                        </form>
-						
-                    </block>
+                    <spawn class="header"></spawn>
 				
-					<block class="m2o bot-mar">
-						<p class="disclaimer" id="m2o-disclaimer"></p>
-						<span class="deadline">
-							04/03/2024
-						</span>
-						<span class="shipping">
-							04/03/2024
-						</span>
+                    <block class="info subject show" id="terms">
+						<p>Terms blabalalsl</p>
+					</block>
+
+                    <block class="info subject hide" id="shipping">
+						<p>shipping whaat</p>
+					</block>
+				
+                    <block class="info subject hide" id="contact">
+						<p>contactusss</p>
 					</block>
                 
                 <spacer></spacer>
 
-				<spawn class="footer"></spawn>
+                <spawn class="footer"></spawn>
                 
             </column>
 			
